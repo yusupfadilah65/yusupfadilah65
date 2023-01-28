@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    position: relative;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    position: relative;
+}
+
+.menu {
+    float: right;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 21px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 33px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-pink {
+    background: #FF8FB1;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: #C539B4;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.img-sewabot {
+    height: 400px; 
+    width: 400px; 
+    border-radius: 10px;
+    float: right;
+    align-items: center;
+}
+
+.listhargatext {
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    font-family: courier;
+    color: #364f6b;
+    background-color: #FF8FB1;
+    border-radius: 10px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.getplan {
+    position: relative;
+    text-align: center;
+    display: block;
+    font-size: 23px;
+    line-height: 1em;
+    color: #ff8a01;
+    font-weight: 500;
+    background: rgb(247,0,104);
+    background: -moz-linear-gradient(to left, rgba(247,0,104,1) 0%, rgba(68,16,102,1) 25%, rgba(247,0,104,1) 75%, rgba(68,16,102,1) 100%);
+    background: -webkit-linear-gradient(to left, rgba(247,0,104,1) 0%,rgba(68,16,102,1) 25%,rgba(247,0,104,1) 75%,rgba(68,16,102,1) 100%);
+    background: linear-gradient(to left, rgba(247,0,104) 0%,rgba(68,16,102,1) 25%,rgba(247,0,104,1) 75%,rgba(68,16,102,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F70068', endColorstr='#441066',GradientType=1 );
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 15px;
+}
+
+.test {
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+    margin-top: 0;
+    text-align: center;
+    font-weight: bolder;
+    color: #1e1f36;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+}
+
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+
+
+.footer-distributed{
+	background-color: #2c292f;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 30%;
+}
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img{
+	width: 30%;
+}
+
+.footer-distributed h3 span{
+	color:  #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #e0ac1c;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+
+
+@media (max-width: 880px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+.paymentimg {
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.waktuinline {
+	overflow: hidden;
+	width: 330px;
+	margin: 20px auto;
+	border-radius: 5px;
+}
+
+.tanggalinline {
+	overflow: hidden;
+	width: 330px;
+	margin: 20px auto;
+	border-radius: 5px;
+}
+
+.card-text {
+	text-align: center;
+}
+
+.harganyaa {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+body{margin-top:20px;
+	background:#eee;
+	}
+	.single_advisor_profile {
+		position: relative;
+		margin-bottom: 50px;
+		-webkit-transition-duration: 500ms;
+		transition-duration: 500ms;
+		z-index: 1;
+		border-radius: 15px;
+		-webkit-box-shadow: 0 0.25rem 1rem 0 rgba(47, 91, 234, 0.125);
+		box-shadow: 0 0.25rem 1rem 0 rgba(47, 91, 234, 0.125);
+	}
+	.single_advisor_profile .advisor_thumb {
+		position: relative;
+		z-index: 1;
+		border-radius: 15px 15px 0 0;
+		margin: 0 auto;
+		padding: 30px 30px 0 30px;
+		background-color: #3f43fd;
+		overflow: hidden;
+	}
+	.single_advisor_profile .advisor_thumb::after {
+		-webkit-transition-duration: 500ms;
+		transition-duration: 500ms;
+		position: absolute;
+		width: 150%;
+		height: 80px;
+		bottom: -45px;
+		left: -25%;
+		content: "";
+		background-color: #ffffff;
+		-webkit-transform: rotate(-15deg);
+		transform: rotate(-15deg);
+	}
+	@media only screen and (max-width: 575px) {
+		.single_advisor_profile .advisor_thumb::after {
+			height: 160px;
+			bottom: -90px;
+		}
+	}
+	.single_advisor_profile .advisor_thumb .social-info {
+		position: absolute;
+		z-index: 1;
+		width: 100%;
+		bottom: 0;
+		right: 30px;
+		text-align: right;
+	}
+	.single_advisor_profile .advisor_thumb .social-info a {
+		font-size: 14px;
+		color: #020710;
+		padding: 0 5px;
+	}
+	.single_advisor_profile .advisor_thumb .social-info a:hover,
+	.single_advisor_profile .advisor_thumb .social-info a:focus {
+		color: #3f43fd;
+	}
+	.single_advisor_profile .advisor_thumb .social-info a:last-child {
+		padding-right: 0;
+	}
+	.single_advisor_profile .single_advisor_details_info {
+		position: relative;
+		z-index: 1;
+		padding: 30px;
+		text-align: right;
+		-webkit-transition-duration: 500ms;
+		transition-duration: 500ms;
+		border-radius: 0 0 15px 15px;
+		background-color: #ffffff;
+	}
+	.single_advisor_profile .single_advisor_details_info::after {
+		-webkit-transition-duration: 500ms;
+		transition-duration: 500ms;
+		position: absolute;
+		z-index: 1;
+		width: 50px;
+		height: 3px;
+		background-color: #3f43fd;
+		content: "";
+		top: 12px;
+		right: 30px;
+	}
+	.single_advisor_profile .single_advisor_details_info h6 {
+		margin-bottom: 0.25rem;
+		-webkit-transition-duration: 500ms;
+		transition-duration: 500ms;
+	}
+	@media only screen and (min-width: 768px) and (max-width: 991px) {
+		.single_advisor_profile .single_advisor_details_info h6 {
+			font-size: 14px;
+		}
+	}
+	.single_advisor_profile .single_advisor_details_info p {
+		-webkit-transition-duration: 500ms;
+		transition-duration: 500ms;
+		margin-bottom: 0;
+		font-size: 14px;
+	}
+	@media only screen and (min-width: 768px) and (max-width: 991px) {
+		.single_advisor_profile .single_advisor_details_info p {
+			font-size: 12px;
+		}
+	}
+	.single_advisor_profile:hover .advisor_thumb::after,
+	.single_advisor_profile:focus .advisor_thumb::after {
+		background-color: #070a57;
+	}
+	.single_advisor_profile:hover .advisor_thumb .social-info a,
+	.single_advisor_profile:focus .advisor_thumb .social-info a {
+		color: #ffffff;
+	}
+	.single_advisor_profile:hover .advisor_thumb .social-info a:hover,
+	.single_advisor_profile:hover .advisor_thumb .social-info a:focus,
+	.single_advisor_profile:focus .advisor_thumb .social-info a:hover,
+	.single_advisor_profile:focus .advisor_thumb .social-info a:focus {
+		color: #ffffff;
+	}
+	.single_advisor_profile:hover .single_advisor_details_info,
+	.single_advisor_profile:focus .single_advisor_details_info {
+		background-color: #070a57;
+	}
+	.single_advisor_profile:hover .single_advisor_details_info::after,
+	.single_advisor_profile:focus .single_advisor_details_info::after {
+		background-color: #ffffff;
+	}
+	.single_advisor_profile:hover .single_advisor_details_info h6,
+	.single_advisor_profile:focus .single_advisor_details_info h6 {
+		color: #ffffff;
+	}
+	.single_advisor_profile:hover .single_advisor_details_info p,
+	.single_advisor_profile:focus .single_advisor_details_info p {
+		color: #ffffff;
+	}

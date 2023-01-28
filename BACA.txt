@@ -1,0 +1,15 @@
+Nihh Yee
+
+Buat Ubah Button Teks di folder js/buttonteks.js
+
+Buat Ubah Deskripsi Produk Sama Main Menu Produk fi folder js/deskripsi.js
+
+Buat Ubah Harga Produk Ganti Di js/harga.js
+
+Buat Ubah Watermark Ganti Di js/watermark.js
+
+Buat Ubah Slide Ubah Foto Dan Rename Di folder slide/slide.jpg
+normalnya slide ada 3, lu gantii slide nya , ingetttt namanya harus samaa!!!
+buat ubah desk slide ganti di slide/slide.js
+
+POKONYAAA time.js sama date.js Jangan Digantiii !!!
